@@ -9,6 +9,7 @@ import logging
 from datetime import datetime
 from dotenv import load_dotenv
 import json
+import re
 
 load_dotenv()
 
@@ -23,7 +24,7 @@ DATE_FORMAT = os.getenv("DATE_FORMAT")
 LOAD_START_DATE = os.getenv("LOAD_START_DATE")
 DURATION_LIMIT = int(os.getenv("DURATION_LIMIT"))
 MIN_MSG_ID = int(os.getenv("MIN_MSG_ID"))
-DATA_FETCH_LIMIT = os.getenv("DATA_FETCH_LIMIT")
+DATA_FETCH_LIMIT = int(os.getenv("DATA_FETCH_LIMIT"))
 DATA_FETCH_SIZE_LIMIT = os.getenv("DATA_FETCH_SIZE_LIMIT")
 FILENAME_PATTERN = os.getenv("FILENAME_PATTERN")
 
@@ -31,6 +32,7 @@ proxy=("http", "127.0.0.1", 10808)
 
 extension_map = {
     'audio/mpeg': 'mp3',
+    'audio/mp3': 'mp3',
     'audio/mp4': 'm4a',
     'audio/m4a': 'm4a',
     'audio/ogg': 'ogg',
@@ -39,6 +41,7 @@ extension_map = {
     'audio/wav': 'wav',
     'audio/x-wav': 'wav',
     'audio/webm': 'webm',
+    'audio/x-aac': 'acc'
 }
 
 
@@ -170,10 +173,11 @@ class AudioDetail:
             return msg.audio.mime_type
     
     def get_extension(self):
-        if self.mime_type in extension_map:
-            return extension_map[self.mime_type]
+        mime = self.mime_type.lower()
+        if mime in extension_map:
+            return extension_map[mime]
         else:
-            print("extension not found")
+            print(f"msg id: {self.msg_id}: extension not found: ", self.mime_type)
             return None
     
     def get_size(self, msg):
@@ -182,12 +186,36 @@ class AudioDetail:
     
     def get_document_id(self, msg):
         return msg.audio.id
-
-    def is_english_alnum(self, word):
-        if word:
-            return word.isalnum() and word.isascii()
+    
+    def is_allowed_filename(self, word):
+        pat = re.compile(FILENAME_PATTERN)
+        if word and re.match(pat, word):
+            return True
         else:
+            print(word)
             return False
+
+    def char_normalization(self, char, input_string):
+
+        return re.sub(rf'{char}+', char, input_string)
+
+        
+    def clean_and_format_string(self, input_string):
+        # Replace space, _, and | with -
+        transformed_string = re.sub(r'^\d+', '', input_string)
+        transformed_string = transformed_string.replace('@', '-').replace('_', '-')\
+                                            .replace('|', '-').replace('@', '-')\
+                                            .replace('~', "-").replace('.', '-')\
+                                            .replace("'", "-").replace(' ', '-')\
+                                            .replace("&", "-")
+        
+        # Remove hyphens from the beginning of the string
+        transformed_string = transformed_string.lstrip('-')
+        
+        # Replace multiple consecutive hyphens with a single hyphen
+        transformed_string = self.char_normalization('-', transformed_string)
+        
+        return transformed_string
 
     def generate_filename(self):
         channel_username = self.channel["username"]
@@ -195,13 +223,13 @@ class AudioDetail:
         audio_title = ""
         audio_artist = ""
 
-        if self.is_english_alnum(self.title):
-            audio_title = self.title
-        if self.is_english_alnum(self.performer):
-            audio_artist = self.performer
+        if self.is_allowed_filename(self.title):
+            audio_title = self.clean_and_format_string(self.title)
+        if self.is_allowed_filename(self.performer):
+            audio_artist = self.clean_and_format_string(self.performer)
         
         filename = str(self.id) + f"_{channel_username}_{audio_title}_{audio_artist}_{date}.{self.extension}"
-        return filename
+        return self.char_normalization("_", filename)
 
     def get_edit_date(self, msg):
         if msg.edit_date:
@@ -238,10 +266,8 @@ async def main():
             continue
         audio = AudioDetail(msg)
         if audio.duration <= DURATION_LIMIT:
-            print(audio.filename)
             audio_detail_append(audio, data)
-
-    dump_json(DATA_FILE_PATH, data)
+    dump_json(DATA_FILE_PATH, data )
 
 asyncio.run(main())
 
