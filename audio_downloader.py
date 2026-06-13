@@ -28,15 +28,15 @@ DATA_FETCH_LIMIT=100
 proxy=("http", "127.0.0.1", 10808)
 
 extension_map = {
-    'audio/mpeg': '.mp3',
-    'audio/mp4': '.m4a',
-    'audio/m4a': '.m4a',
-    'audio/ogg': '.ogg',
-    'audio/flac': '.flac',
-    'audio/aac': '.aac',
-    'audio/wav': '.wav',
-    'audio/x-wav': '.wav',
-    'audio/webm': '.webm',
+    'audio/mpeg': 'mp3',
+    'audio/mp4': 'm4a',
+    'audio/m4a': 'm4a',
+    'audio/ogg': 'ogg',
+    'audio/flac': 'flac',
+    'audio/aac': 'aac',
+    'audio/wav': 'wav',
+    'audio/x-wav': 'wav',
+    'audio/webm': 'webm',
 }
 
 
