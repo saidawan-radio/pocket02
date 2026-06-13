@@ -100,7 +100,7 @@ async def downoad_audio_by_msg(msg:Message, file_path:str, file_name:str):
 
 async def download_audio_by_audio_detail(client:TelegramClient, chat, audio:AudioDetail):
     msg = await get_msg_by_audio_detail(client, chat, audio)
-    await downoad_audio_by_msg(msg, DOWNLAOD_PATH, audio.filename)
+    await downoad_audio_by_msg(msg, DOWNLOAD_PATH, audio.filename)
 
 
 
