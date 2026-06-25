@@ -44,7 +44,8 @@ jobs:
 
             - name: Commit and push changes
               env:
-                  DOWNLOAD_PATH: ${{ vars.DOWNLOAD_PATH }}
+                  DOWNLOADED_DATA_FILE_PATH: ${{ vars.DOWNLOADED_DATA_FILE_PATH }}
+                  
 
               run: |
                   git config --local user.email "moohamadiann@gmail.com"
