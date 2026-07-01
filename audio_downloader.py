@@ -45,7 +45,7 @@ async def main():
         await download_audio_by_internal_id(client, channel, origin_data, last_downloaded_intid, conf.DOWNLOAD_PATH )
         opus_filename = add_opus_extension(origin_detail["filename"])
         new_detail = add_github_raw_url_to_detail(origin_detail, conf.DOWNLOAD_PATH, opus_filename, conf.REPO_OWNER, conf.REPO_NAME, conf.REPO_BRANCH)
-        new_detail = add_cover_image_url_to_detail(new_detail, conf.GITHUB_COVER_PATH, conf.REPO_OWNER, conf.REPO_NAME, conf.REPO_BRANCH)
+        new_detail = add_cover_image_url_to_detail(new_detail, conf.COVER_PATH_DIR, conf.REPO_OWNER, conf.REPO_NAME, conf.REPO_BRANCH)
         print(new_detail)
         downloaded_data["audio_info"][str(last_downloaded_intid)] = new_detail
         downloaded_data["general_info"]["last_downloaded_internal_id"] = last_downloaded_intid

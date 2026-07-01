@@ -18,7 +18,7 @@ class conf:
     DATA_FETCH_LIMIT = int(os.getenv("DATA_FETCH_LIMIT", 0))
     DATA_FETCH_SIZE_LIMIT = os.getenv("DATA_FETCH_SIZE_LIMIT", 0)
     FILENAME_PATTERN = os.getenv("FILENAME_PATTERN", 0)
-    GITHUB_COVER_PATH=os.getenv("GITHUB_COVER_PATH", 0)
+    COVER_PATH_DIR=os.getenv("COVER_PATH_DIR", 0)
     DOWNLOADED_JSON_DATA_FORM = {
                 "audio_info" : {},
                 "map_msg_id" : {},
