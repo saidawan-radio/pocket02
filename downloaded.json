@@ -263,10 +263,54 @@
             "document_id": 5855203523066596771,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/94_saidaWan_Zere-Mi_Mikail-Aslan_20241117-1559.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/94.jpg"
+        },
+        "95": {
+            "id": "95",
+            "title": "Kanî kanî",
+            "performer": "Merziye ferîqî",
+            "duration": 310,
+            "date": "20241118-1904",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "250",
+            "message": "",
+            "filename": "95_saidaWan_20241118-1904.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241118-1904",
+            "size": 6,
+            "document_id": 5899857701042656932,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/95_saidaWan_20241118-1904.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/95.jpg"
+        },
+        "96": {
+            "id": "96",
+            "title": "Vako Nay Kon Konem Jargem",
+            "performer": "Adnan Karim",
+            "duration": 361,
+            "date": "20241118-2313",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "251",
+            "message": "~>",
+            "filename": "96_saidaWan_Vako-Nay-Kon-Konem-Jargem_Adnan-Karim_20241118-2313.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241219-2223",
+            "size": 8,
+            "document_id": 5899933146438178036,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/96_saidaWan_Vako-Nay-Kon-Konem-Jargem_Adnan-Karim_20241118-2313.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/96.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 94
+        "last_downloaded_internal_id": 96
     }
 }
