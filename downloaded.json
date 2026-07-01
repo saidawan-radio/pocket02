@@ -1,7 +1,52 @@
 {
-    "audio_info": {},
+    "audio_info": {
+        "83": {
+            "id": "83",
+            "title": "بە ئاسمانەوە",
+            "performer": "Rahim Ghoraishi",
+            "duration": 490,
+            "date": "20241108-2053",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "235",
+            "message": "بە ئاسمانەوە ئەستێرەم دیوە\nلە باغچەی بەهار گوڵم چنیوە\nشەونمی درەخت لە ڕووم پژاوە\nلە زەردەی زۆر کەل سەرنجم داوە\nپەلکەزێڕینەی پاش بارانی زۆر\nچەماوەتەوە بەرامبەر بە خۆر\nخوڕەی قەڵبەزی کەفزیوینی چەم\nلە هەزار چەشنە پرشنگی ناو تەم\nئەمانە هەموو جوانن، شیرینن\nرۆشنکەرەوەی شەقامی ژینن!\nبەڵام تەبیعەت هەرگیزاوهەرگیز\nبێ ڕووناکییە بێ بزەی ئازیز!",
+            "filename": "83_saidaWan_Rahim-Ghoraishi_20241108-2053.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1659",
+            "size": 9,
+            "document_id": 5884292980080123309,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02//musics/83_saidaWan_Rahim-Ghoraishi_20241108-2053.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02//0/83.jpg"
+        },
+        "84": {
+            "id": "84",
+            "title": "ڕەنجی بێ وەرم",
+            "performer": "Ali Mardan",
+            "duration": 179,
+            "date": "20241109-1556",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "236",
+            "message": "",
+            "filename": "84_saidaWan_Ali-Mardan_20241109-1556.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1701",
+            "size": 3,
+            "document_id": 5884292980080123315,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02//musics/84_saidaWan_Ali-Mardan_20241109-1556.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02//0/84.jpg"
+        }
+    },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 82
+        "last_downloaded_internal_id": 84
     }
 }
