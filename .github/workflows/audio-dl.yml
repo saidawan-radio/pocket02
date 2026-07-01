@@ -65,10 +65,8 @@ jobs:
               run: ./download.sh
             
 
-            - name: install converter dependencies
-              run: |
-                sudo apt update
-                sudo apt install -y ffmpeg opustags
+            - name: Install FFmpeg
+              uses: AnimMouse/setup-ffmpeg@v1
 
             - name: convert files
               env:
