@@ -87,10 +87,54 @@
             "document_id": 5872981303237811156,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/86_saidaWan_Adnan-karim-U-Hasan-zirak_Adnan-karim_20241110-0747.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/86.jpg"
+        },
+        "87": {
+            "id": "87",
+            "title": "Gonchi Delakam Arezo",
+            "performer": "Hasan Zirak",
+            "duration": 136,
+            "date": "20241110-1527",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "239",
+            "message": "~>",
+            "filename": "87_saidaWan_Gonchi-Delakam-Arezo_Hasan-Zirak_20241110-1527.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20250218-1631",
+            "size": 2,
+            "document_id": 5875233103051496021,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/87_saidaWan_Gonchi-Delakam-Arezo_Hasan-Zirak_20241110-1527.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/87.jpg"
+        },
+        "88": {
+            "id": "88",
+            "title": "ئێوارە وەختە",
+            "performer": "نادیار",
+            "duration": 609,
+            "date": "20241112-0757",
+            "author_name": "‏∞... A.R...∞",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "241",
+            "message": "",
+            "filename": "88_saidaWan_20241112-0757.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260619-1704",
+            "size": 10,
+            "document_id": 5884292980080123324,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/88_saidaWan_20241112-0757.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/88.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 86
+        "last_downloaded_internal_id": 88
     }
 }
