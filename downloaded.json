@@ -219,10 +219,54 @@
             "document_id": 5904283982668767154,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/92_saidaWan_Shursh-Mahmoodi_20241117-1120.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/92.jpg"
+        },
+        "93": {
+            "id": "93",
+            "title": "Yara min",
+            "performer": "Hani Mojtahedi",
+            "duration": 304,
+            "date": "20241117-1134",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "247",
+            "message": "",
+            "filename": "93_saidaWan_Yara-min_Hani-Mojtahedi_20241117-1134.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-1032",
+            "size": 5,
+            "document_id": 5904283982668767155,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/93_saidaWan_Yara-min_Hani-Mojtahedi_20241117-1134.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/93.jpg"
+        },
+        "94": {
+            "id": "94",
+            "title": "Zere Mi",
+            "performer": "Mikail Aslan",
+            "duration": 259,
+            "date": "20241117-1559",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "248",
+            "message": "",
+            "filename": "94_saidaWan_Zere-Mi_Mikail-Aslan_20241117-1559.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241117-1559",
+            "size": 5,
+            "document_id": 5855203523066596771,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/94_saidaWan_Zere-Mi_Mikail-Aslan_20241117-1559.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/94.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 92
+        "last_downloaded_internal_id": 94
     }
 }
