@@ -527,10 +527,54 @@
             "document_id": 5904283982668767171,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/106_saidaWan_20241127-0801.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/106.jpg"
+        },
+        "107": {
+            "id": "107",
+            "title": "Aram & Nuri ( BAND )",
+            "performer": "SHAD KURDI",
+            "duration": 152,
+            "date": "20241127-1026",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "264",
+            "message": "",
+            "filename": "107_saidaWan_SHAD-KURDI_20241127-1026.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241127-1026",
+            "size": 7,
+            "document_id": 5803013550091801928,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/107_saidaWan_SHAD-KURDI_20241127-1026.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/107.jpg"
+        },
+        "108": {
+            "id": "108",
+            "title": "Sterka sor",
+            "performer": "Shvan Parvar",
+            "duration": 299,
+            "date": "20241127-2220",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "265",
+            "message": "~>",
+            "filename": "108_saidaWan_Sterka-sor_Shvan-Parvar_20241127-2220.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241219-2221",
+            "size": 5,
+            "document_id": 5350805561711550220,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/108_saidaWan_Sterka-sor_Shvan-Parvar_20241127-2220.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/108.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 106
+        "last_downloaded_internal_id": 108
     }
 }
