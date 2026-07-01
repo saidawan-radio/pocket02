@@ -483,10 +483,54 @@
             "document_id": 5904283982668767168,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/104_saidaWan_20241123-1021.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/104.jpg"
+        },
+        "105": {
+            "id": "105",
+            "title": "NaOmedi",
+            "performer": "Hassan zirak",
+            "duration": 227,
+            "date": "20241126-1626",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "261",
+            "message": "~>",
+            "filename": "105_saidaWan_NaOmedi_Hassan-zirak_20241126-1626.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241219-2221",
+            "size": 4,
+            "document_id": 5346083872234822873,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/105_saidaWan_NaOmedi_Hassan-zirak_20241126-1626.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/105.jpg"
+        },
+        "106": {
+            "id": "106",
+            "title": "جوانە کیژی مەدرەسە",
+            "performer": "نادیار",
+            "duration": 94,
+            "date": "20241127-0801",
+            "author_name": "𝑫𝒐𝒛𝒉𝒂𝒎",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "262",
+            "message": "",
+            "filename": "106_saidaWan_20241127-0801.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260626-1106",
+            "size": 2,
+            "document_id": 5904283982668767171,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/106_saidaWan_20241127-0801.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/106.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 104
+        "last_downloaded_internal_id": 106
     }
 }
