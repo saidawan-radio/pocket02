@@ -30,6 +30,7 @@ for ext in "${extensions[@]}"; do
 
         if ffmpeg -i "${input}" -vn -c:a libopus -b:a "$target" -map_metadata 0 "$temp" 2>/dev/null; then
             mv -f "$temp" "$song_output"
+            rm -f "$input"
             echo "Converted: $input"
         else
             rm -f "$temp"
