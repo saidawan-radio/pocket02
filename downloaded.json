@@ -1319,10 +1319,54 @@
             "document_id": 5994756171678881232,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/142_saidaWan_Be-naw_saidawan_20241220-1045.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/142.jpg"
+        },
+        "143": {
+            "id": "143",
+            "title": "Am shaw",
+            "performer": "@saidawan",
+            "duration": 166,
+            "date": "20241220-2310",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "308",
+            "message": "وا دیارە ئەمشەۆ دووارە گیریاوی\nچاۆانت كزەو ماتوو شێۆاوی\nهەركەس لێ داوی دەشكێنم دەسی\nحەۆت كۆسی كەۆێ نەمێنێ كەسی\nنە لەیل و مەجنوون شیرین و فەراد\nهەمووێ درۆ بوون نەگەین بە مۆراد\nتەنیا من و تۆ بێكەس ماینەۆە\nنەگەیشتین بە یەك هەی داد و بێ داد\nمحراب قەیتاسی\n~>",
+            "filename": "143_saidaWan_Am-shaw_saidawan_20241220-2310.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260618-1804",
+            "size": 3,
+            "document_id": 5994507561791919523,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/143_saidaWan_Am-shaw_saidawan_20241220-2310.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/143.jpg"
+        },
+        "144": {
+            "id": "144",
+            "title": "Namrdm",
+            "performer": "@saidawan",
+            "duration": 211,
+            "date": "20241221-1210",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "309",
+            "message": "نەمردم من ئەگەر ئەم جارە بێ تۆ\nنەچم، شەرت بێ، هەتا ئەم خوارە بێ تۆ\nدەروونم خاڵییە، وەک نەی دەناڵێ\nهەوارێکی چ پڕ هاوارە بێ تۆ\nبیناییم کوێرە، هەڵنایێ بە ڕووی کەس\nموژەم یەک یەک دەڵێی بزمارە بێ تۆ\nقەسەم بەو شەربەتی دیداری پاکەت\nشەرابم عەینی ژەهری مارە بێ تۆ\nلەکن تۆ خار و خەس گوڵزارە بێ من\nلەکن من خەرمەنی گوڵ خارە بێ تۆ\nنالی\n~>",
+            "filename": "144_saidaWan_Namrdm_saidawan_20241221-1210.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241223-2045",
+            "size": 6,
+            "document_id": 5994507561791919507,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/144_saidaWan_Namrdm_saidawan_20241221-1210.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/144.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 142
+        "last_downloaded_internal_id": 144
     }
 }
