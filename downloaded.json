@@ -1275,10 +1275,54 @@
             "document_id": 5881754370940347326,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/140_saidaWan_Rzgar-Malamahmoodi_20241219-2325.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/140.jpg"
+        },
+        "141": {
+            "id": "141",
+            "title": "Fîrqet",
+            "performer": "Rzgar Malamahmoodi",
+            "duration": 362,
+            "date": "20241219-2325",
+            "author_name": "Mehran",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "305",
+            "message": "• ڕزگار مەلامەحموودی \n• فیرقەت",
+            "filename": "141_saidaWan_Rzgar-Malamahmoodi_20241219-2325.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20260618-1803",
+            "size": 6,
+            "document_id": 5881754370940347327,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/141_saidaWan_Rzgar-Malamahmoodi_20241219-2325.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/141.jpg"
+        },
+        "142": {
+            "id": "142",
+            "title": "Be naw",
+            "performer": "@saidawan",
+            "duration": 121,
+            "date": "20241220-1045",
+            "author_name": "Amin Kareshi",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "307",
+            "message": "~>",
+            "filename": "142_saidaWan_Be-naw_saidawan_20241220-1045.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241222-1048",
+            "size": 2,
+            "document_id": 5994756171678881232,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/142_saidaWan_Be-naw_saidawan_20241220-1045.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/142.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 140
+        "last_downloaded_internal_id": 142
     }
 }
