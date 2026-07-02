@@ -1451,10 +1451,54 @@
             "document_id": 5904283982668767185,
             "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/148_saidaWan_20241222-2113.mp3.opus",
             "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/148.jpg"
+        },
+        "149": {
+            "id": "149",
+            "title": "Şewî Yełda ",
+            "performer": "Rizgar MelaMehmûdî",
+            "duration": 346,
+            "date": "20241224-1707",
+            "author_name": "Mehran",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "315",
+            "message": "شەوی یەلدایە، یا دەیجورە ئەمشەو\nکە دیدەم دوور لە تۆ بێنوورە ئەمشەو؟!\nدڵم وەک حاکمی مەعزوولە، قوربان!\nخەڵاتی وەسڵی تۆی مەنزوورە ئەمشەو\nلە دووریت من وەکوو بولبول دەناڵم\nبە وەسڵت عالەمێ مەسروورە ئەمشەو\nسوپای موژگان و تیغی ئەبروانت\nشکستی فیرقەیی تابوورە ئەمشەو\nنالی\n~>\nڕزگار مەلامەحموودی",
+            "filename": "149_saidaWan_20241224-1707.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20250131-1328",
+            "size": 7,
+            "document_id": 6005826278085629728,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/149_saidaWan_20241224-1707.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/149.jpg"
+        },
+        "150": {
+            "id": "150",
+            "title": "Gaohare",
+            "performer": "Hasan darzi",
+            "duration": 305,
+            "date": "20241226-1636",
+            "author_name": "Mohsen",
+            "channel": {
+                "id": 1917238138,
+                "username": "saidaWan",
+                "name": "سەیدەوان"
+            },
+            "msg_id": "316",
+            "message": "",
+            "filename": "150_saidaWan_Gaohare_Hasan-darzi_20241226-1636.mp3",
+            "mime_type": "audio/mpeg",
+            "edit_date": "20241226-2353",
+            "size": 5,
+            "document_id": 6010065050029529046,
+            "github_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/musics/150_saidaWan_Gaohare_Hasan-darzi_20241226-1636.mp3.opus",
+            "cover_url": "https://raw.githubusercontent.com/saidawan-radio/pocket02/master/covers/150.jpg"
         }
     },
     "map_msg_id": {},
     "general_info": {
-        "last_downloaded_internal_id": 148
+        "last_downloaded_internal_id": 150
     }
 }
